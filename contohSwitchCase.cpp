@@ -27,6 +27,28 @@ int main()
         cout << "Pilihlah antara 1/2/3 = ";
         cin >> pilihan;
 
+        switch (pilihan)
+        {
+        case 1:
+            cout << "Hitung luas persegi panjang" << endl;
+            cout << "Masukkan panjang =";
+            cin >> panjang;
+            cout << "Masukkan lebar =";
+            cin >> lebar;
+            cout << "Luas persegi panjang =" << luasPersegiPanjang(panjang, lebar) << endl;
+            break;
+        case 2:
+            cout << "Hitung luas lingkaran" << endl;
+            cout << "Masukan jari-jari =";
+            cin >> jejari;
+            cout << "Luas lingkaran =" << luasLingkaran(jejari) << endl;
+            break;
+        case 3:
+            break;
+        default:
+            cout << "Pilihan salah, pilihlah salah satu diantara 1-3";
+            break;
+        }
        
     } while (pilihan != 3);
 }
