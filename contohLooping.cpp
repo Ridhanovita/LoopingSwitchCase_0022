@@ -17,4 +17,12 @@ int main()
     cout << "Nilai n terakhir =" << n << endl;
     cout << endl;
 
+    cout << "Perulangan for pencacah turun" << endl;
+    for (n = 5; n > 0; n--)
+    {
+        cout << "Nilai n =" << n << "Selamat datang" << endl;
+    }
+    cout << "Nilai n terakhir =" << n;
+    cout << endl;
+
 }
